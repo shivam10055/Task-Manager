@@ -48,7 +48,7 @@ const TaskModal: React.FC<Props> = ({ isOpen, onClose, onCreate, initialData }) 
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="fixed inset-0 z-50 bg-black   flex justify-center items-center">
       <div className="bg-white rounded p-6 w-full max-w-md space-y-4">
         <h2 className="text-xl font-bold">{initialData ? 'Edit Task' : 'Create Task'}</h2>
         <input
